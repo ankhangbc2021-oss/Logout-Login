@@ -19,12 +19,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary);
 }
 
 .auth {
     position: relative;
     display: flex;
     gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .auth > form {
@@ -54,13 +58,14 @@ form > .input-group {
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
+    outline-color: var(--primary);
 }
 
 .input-group.active label {
     top: -8px;
     font-size: 12px;
-    color: #000;
-    background-color: white;
+    color: var(--primary);
+    background-color: #fff;
 }
 
 form > button {
